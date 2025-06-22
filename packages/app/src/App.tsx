@@ -117,6 +117,15 @@ export function App() {
       ) : (
         <div>Talking to the gods...</div>
       )}
+      <div className="text-gray-500 text-xs mt-4 underline">
+        <a
+          href="https://github.com/alvrs/dust-longevity"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Source code
+        </a>
+      </div>
     </div>
   );
 }
