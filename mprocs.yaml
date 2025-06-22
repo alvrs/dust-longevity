@@ -1,0 +1,7 @@
+scrollback: 10000
+procs:
+  client:
+    cwd: packages/app
+    shell: pnpm run dev
+  tunnel:
+    shell: cloudflared tunnel run --token $CLOUDFLARE_TUNNEL_TOKEN
